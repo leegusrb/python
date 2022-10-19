@@ -32,7 +32,7 @@ def backL(L):
     return L[sizeL(L) - 1]
 
 L = []
-for i in range(15):
+for i in range(N):
     A = list(stdin.readline().split())
     if A[0] == 'push':
         pushL(L, A[1])
